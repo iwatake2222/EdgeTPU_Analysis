@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy
 from edgetpu.basic.basic_engine import BasicEngine
 
-MODEL_NAME = "model_padding/model_padding_256x256x3_edgetpu.tflite"
+MODEL_NAME = "model_mobilenet_v2/model_mobilenet_v2_wo_fc_224x224x3_edgetpu.tflite"
 
 
 ### Load model and prepare TPU engine
@@ -21,7 +21,6 @@ start = time.time()
 num_measurement = 10000
 for i in range(num_measurement):
 	_, raw_result = engine.RunInference(input_tensor)
-	# time.sleep(2)
 elapsed_time = time.time() - start
 print ("elapsed_time: {0} ".format(1000 * elapsed_time / num_measurement) + "[msec]")
 

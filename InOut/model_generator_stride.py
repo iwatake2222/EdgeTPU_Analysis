@@ -4,8 +4,8 @@ from tensorflow.python.keras.models import Model
 from tensorflow.python.keras.layers import Input, Reshape, Dense, Add, Conv2D, ZeroPadding2D
 
 # Model parameters
-MODEL_WIDTH = 2048
-MODEL_HEIGHT = 2048
+MODEL_WIDTH = 128
+MODEL_HEIGHT = 256
 MODEL_CHANNEL = 3
 
 # Create model structure

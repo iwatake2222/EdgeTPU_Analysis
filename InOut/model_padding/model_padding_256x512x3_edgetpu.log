@@ -1,0 +1,7 @@
+Edge TPU Compiler version 1.0.249710469
+Input: model_padding_256x512x3.tflite
+Output: model_padding_256x512x3_edgetpu.tflite
+
+Operator                       Count      Status
+
+PAD                            1          Mapped to Edge TPU

@@ -1,0 +1,7 @@
+Edge TPU Compiler version 1.0.249710469
+Input: model_stride_128x256x3.tflite
+Output: model_stride_128x256x3_edgetpu.tflite
+
+Operator                       Count      Status
+
+CONV_2D                        1          Mapped to Edge TPU
