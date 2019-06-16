@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy
 from edgetpu.basic.basic_engine import BasicEngine
 
-MODEL_NAME = "model_mobilenet_v2/model_mobilenet_v2_w_fc_224x224x3_edgetpu.tflite"
+MODEL_NAME = "model_padding/model_padding_256x256x3_edgetpu.tflite"
 
 
 ### Load model and prepare TPU engine
@@ -13,6 +13,11 @@ height = engine.get_input_tensor_shape()[2]
 
 ### prepara input tensor
 img = Image.new('RGB', (width, height), (128, 128, 128))
+# img = Image.new('RGB', (width, height), (127, 128, 129))
+
+# imarray = numpy.random.rand(width,height,3) * 255
+# img = Image.fromarray(imarray.astype('uint8')).convert('RGB')
+
 draw = ImageDraw.Draw(img)
 input_tensor = numpy.asarray(img).flatten()
 

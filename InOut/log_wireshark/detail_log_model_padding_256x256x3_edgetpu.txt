@@ -1,0 +1,43 @@
+Frame 1358: 1088 bytes on wire (8704 bits), 1088 bytes captured (8704 bits) on interface 0
+    Interface id: 0 (usbmon2)
+        Interface name: usbmon2
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Jun 16, 2019 19:17:46.844009000 JST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1560680266.844009000 seconds
+    [Time delta from previous captured frame: 0.000110000 seconds]
+    [Time delta from previous displayed frame: 0.000110000 seconds]
+    [Time since reference or first frame: 8.209078000 seconds]
+    Frame Number: 1358
+    Frame Length: 1088 bytes (8704 bits)
+    Capture Length: 1088 bytes (8704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 2.9.1]
+    [Destination: host]
+    URB id: 0xffffffc0c5481540
+    URB type: URB_COMPLETE ('C')
+    URB transfer type: URB_BULK (0x03)
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    Device: 9
+    URB bus id: 2
+    Device setup request: not relevant ('-')
+    Data: present (0)
+    URB sec: 1560680266
+    URB usec: 844009
+    URB status: Success (0)
+    URB length [bytes]: 1024
+    Data length [bytes]: 1024
+    [Request in: 1357]
+    [Time from request: 0.000110000 seconds]
+    [bInterfaceClass: Vendor Specific (0xff)]
+    Unused Setup Header
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000200
+    Number of ISO descriptors: 0
+Leftover Capture Data: 808080808080808080808080808080808080808080808080...

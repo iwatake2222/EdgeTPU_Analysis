@@ -1,0 +1,48 @@
+MODEL_NAME = "model_stride/model_stride_256x256x3_edgetpu.tflite"
+
+img = Image.new('RGB', (width, height), (127, 128, 129))
+# imarray = numpy.random.rand(width,height,3) * 255
+# img = Image.fromarray(imarray.astype('uint8')).convert('RGB')
+
+
+Frame 251: 61504 bytes on wire (492032 bits), 61504 bytes captured (492032 bits) on interface 0
+    Interface id: 0 (usbmon2)
+        Interface name: usbmon2
+    Encapsulation type: USB packets with Linux header and padding (115)
+    Arrival Time: Jun 16, 2019 19:11:28.404189000 JST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1560679888.404189000 seconds
+    [Time delta from previous captured frame: 0.000076000 seconds]
+    [Time delta from previous displayed frame: 0.000076000 seconds]
+    [Time since reference or first frame: 15.106933000 seconds]
+    Frame Number: 251
+    Frame Length: 61504 bytes (492032 bits)
+    Capture Length: 61504 bytes (492032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 2.9.1]
+    URB id: 0xffffffc0c11e29c0
+    URB type: URB_SUBMIT ('S')
+    URB transfer type: URB_BULK (0x03)
+    Endpoint: 0x01, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0001 = Endpoint number: 1
+    Device: 9
+    URB bus id: 2
+    Device setup request: not relevant ('-')
+    Data: present (0)
+    URB sec: 1560679888
+    URB usec: 404189
+    URB status: Operation now in progress (-EINPROGRESS) (-115)
+    URB length [bytes]: 196608
+    Data length [bytes]: 61440
+    [bInterfaceClass: Vendor Specific (0xff)]
+    Unused Setup Header
+    Interval: 0
+    Start frame: 0
+    Copy of Transfer Flags: 0x00000000
+    Number of ISO descriptors: 0
+Leftover Capture Data: 7f80817f80817f80817f80817f80817f80817f80817f8081...
