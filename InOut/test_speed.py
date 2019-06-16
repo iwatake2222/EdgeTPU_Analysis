@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy
 from edgetpu.basic.basic_engine import BasicEngine
 
-MODEL_NAME = "model_mobilenet_v2/model_mobilenet_v2_wo_fc_224x224x3_edgetpu.tflite"
+MODEL_NAME = "model_mobilenet_v2/model_mobilenet_v2_w_fc_224x224x3_edgetpu.tflite"
 
 
 ### Load model and prepare TPU engine
