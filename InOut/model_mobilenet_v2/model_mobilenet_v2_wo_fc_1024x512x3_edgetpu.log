@@ -1,0 +1,10 @@
+Edge TPU Compiler version 1.0.249710469
+Input: ./model_mobilenet_v2_wo_fc_1024x512x3.tflite
+Output: model_mobilenet_v2_wo_fc_1024x512x3_edgetpu.tflite
+
+Operator                       Count      Status
+
+ADD                            10         Mapped to Edge TPU
+PAD                            5          Mapped to Edge TPU
+CONV_2D                        35         Mapped to Edge TPU
+DEPTHWISE_CONV_2D              17         Mapped to Edge TPU

@@ -4,10 +4,10 @@ Output: model_mobilenet_v2_w_fc_224x224x3_edgetpu.tflite
 
 Operator                       Count      Status
 
+MEAN                           1          Mapped to Edge TPU
+FULLY_CONNECTED                1          Mapped to Edge TPU
+SOFTMAX                        1          Mapped to Edge TPU
 ADD                            10         Mapped to Edge TPU
 PAD                            5          Mapped to Edge TPU
 CONV_2D                        35         Mapped to Edge TPU
 DEPTHWISE_CONV_2D              17         Mapped to Edge TPU
-MEAN                           1          Mapped to Edge TPU
-FULLY_CONNECTED                1          Mapped to Edge TPU
-SOFTMAX                        1          Mapped to Edge TPU

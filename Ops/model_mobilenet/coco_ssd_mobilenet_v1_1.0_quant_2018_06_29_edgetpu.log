@@ -1,0 +1,12 @@
+Edge TPU Compiler version 1.0.249710469
+Input: ./coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.tflite
+Output: coco_ssd_mobilenet_v1_1.0_quant_2018_06_29_edgetpu.tflite
+
+Operator                       Count      Status
+
+CUSTOM                         1          Operation is working on an unsupported data type
+CONCATENATION                  2          Mapped to Edge TPU
+CONV_2D                        34         Mapped to Edge TPU
+DEPTHWISE_CONV_2D              13         Mapped to Edge TPU
+RESHAPE                        13         Mapped to Edge TPU
+LOGISTIC                       1          Mapped to Edge TPU

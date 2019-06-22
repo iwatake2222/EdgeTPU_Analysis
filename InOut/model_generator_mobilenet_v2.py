@@ -6,8 +6,8 @@ from tensorflow.python.keras.applications.mobilenet import MobileNet
 from tensorflow.python.keras.applications.mobilenet_v2 import MobileNetV2
 
 # Model parameters
-MODEL_WIDTH = 224
-MODEL_HEIGHT = 224
+MODEL_WIDTH = 4096
+MODEL_HEIGHT = 4096
 MODEL_CHANNEL = 3
 
 # Create model structure
@@ -40,8 +40,8 @@ open(model_name + '.tflite', "wb").write(tflite_model)
 
 '''
 tflite_convert ^
-  --output_file=model_mobilenet_w_activation224x224x3.tflite ^
-  --keras_model_file=model_mobilenet_w_activation224x224x3.h5 ^
+  --output_file=aaa.tflite ^
+  --keras_model_file=model_mobilenet_v2_wo_fc_2048x2048x3.h5 ^
   --inference_type=QUANTIZED_UINT8 ^
   --default_ranges_min=0 ^
   --default_ranges_max=6 ^

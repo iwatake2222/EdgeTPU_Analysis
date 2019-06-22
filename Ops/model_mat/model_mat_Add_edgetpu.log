@@ -1,0 +1,9 @@
+Edge TPU Compiler version 1.0.249710469
+Input: model_mat_Add.tflite
+Output: model_mat_Add_edgetpu.tflite
+
+Operator                       Count      Status
+
+CONV_2D                        1          Mapped to Edge TPU
+ADD                            500        Mapped to Edge TPU
+PAD                            1          Mapped to Edge TPU

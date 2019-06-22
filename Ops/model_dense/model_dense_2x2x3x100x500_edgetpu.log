@@ -1,0 +1,7 @@
+Edge TPU Compiler version 1.0.249710469
+Input: ./model_dense_2x2x3x100x500.tflite
+Output: model_dense_2x2x3x100x500_edgetpu.tflite
+
+Operator                       Count      Status
+
+FULLY_CONNECTED                501        Mapped to Edge TPU

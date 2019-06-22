@@ -1,0 +1,8 @@
+Edge TPU Compiler version 1.0.249710469
+Input: ./model_conv_128x128x3x32x7x300.tflite
+Output: model_conv_128x128x3x32x7x300_edgetpu.tflite
+
+Operator                       Count      Status
+
+PAD                            1          Mapped to Edge TPU
+CONV_2D                        301        Mapped to Edge TPU
