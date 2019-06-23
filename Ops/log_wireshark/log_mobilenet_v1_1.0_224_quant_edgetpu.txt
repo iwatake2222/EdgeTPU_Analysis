@@ -1,0 +1,430 @@
+    1   0.000000         host → 2.4.0        USB 64 GET DESCRIPTOR Request DEVICE
+    2   0.000139        2.4.0 → host         USB 82 GET DESCRIPTOR Response DEVICE
+    3   0.000204         host → 2.2.0        USB 64 GET DESCRIPTOR Request DEVICE
+    4   0.002275        2.2.0 → host         USB 82 GET DESCRIPTOR Response DEVICE
+    5   0.002313         host → 2.1.0        USB 64 GET DESCRIPTOR Request DEVICE
+    6   0.002338        2.1.0 → host         USB 82 GET DESCRIPTOR Response DEVICE
+    7   2.770671         host → 2.4.0        USB 64 GET DESCRIPTOR Request DEVICE
+    8   2.770804        2.4.0 → host         USB 82 GET DESCRIPTOR Response DEVICE
+    9   2.770891         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+   10   2.771841        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+   11   2.771874         host → 2.2.0        USBHUB 64 SET_FEATURE Request    [Port 3: PORT_RESET]
+   12   2.772372        2.2.0 → host         USBHUB 64 SET_FEATURE Response   [Port 3: PORT_RESET]
+   13   2.775374        2.2.1 → host         USB 65 URB_INTERRUPT in
+   14   2.775386         host → 2.2.1        USB 64 URB_INTERRUPT in
+   15   2.790351         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+   16   2.791147        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+   17   2.791184         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_PORT_RESET]
+   18   2.791373        2.2.1 → host         USB 65 URB_INTERRUPT in
+   19   2.791382         host → 2.2.1        USB 64 URB_INTERRUPT in
+   20   2.791680        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_PORT_RESET]
+   21   2.791707         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_BH_PORT_RESET]
+   22   2.791965        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_BH_PORT_RESET]
+   23   2.791998         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_PORT_LINK_STATE]
+   24   2.792267        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_PORT_LINK_STATE]
+   25   2.792299         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+   26   2.792760        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+   27   2.792792         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_PORT_CONNECTION]
+   28   2.793116        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_PORT_CONNECTION]
+   29   2.793150         host → 2.2.0        USBHUB 64 SET_FEATURE Request    [Port 3: BH_PORT_RESET]
+   30   2.793505        2.2.0 → host         USBHUB 64 SET_FEATURE Response   [Port 3: BH_PORT_RESET]
+   31   2.903375        2.2.1 → host         USB 65 URB_INTERRUPT in
+   32   2.903382         host → 2.2.1        USB 64 URB_INTERRUPT in
+   33   2.919374        2.2.1 → host         USB 65 URB_INTERRUPT in
+   34   2.919380         host → 2.2.1        USB 64 URB_INTERRUPT in
+   35   2.935374        2.2.1 → host         USB 65 URB_INTERRUPT in
+   36   2.935379         host → 2.2.1        USB 64 URB_INTERRUPT in
+   37   2.951374        2.2.1 → host         USB 65 URB_INTERRUPT in
+   38   2.951380         host → 2.2.1        USB 64 URB_INTERRUPT in
+   39   2.967374        2.2.1 → host         USB 65 URB_INTERRUPT in
+   40   2.967379         host → 2.2.1        USB 64 URB_INTERRUPT in
+   41   2.983374        2.2.1 → host         USB 65 URB_INTERRUPT in
+   42   2.983380         host → 2.2.1        USB 64 URB_INTERRUPT in
+   43   2.998344         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+   44   2.999248        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+   45   2.999376        2.2.1 → host         USB 65 URB_INTERRUPT in
+   46   2.999381         host → 2.2.1        USB 64 URB_INTERRUPT in
+   47   3.015379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   48   3.015386         host → 2.2.1        USB 64 URB_INTERRUPT in
+   49   3.031383        2.2.1 → host         USB 65 URB_INTERRUPT in
+   50   3.031392         host → 2.2.1        USB 64 URB_INTERRUPT in
+   51   3.047377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   52   3.047385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   53   3.063376        2.2.1 → host         USB 65 URB_INTERRUPT in
+   54   3.063383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   55   3.079377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   56   3.079385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   57   3.095381        2.2.1 → host         USB 65 URB_INTERRUPT in
+   58   3.095388         host → 2.2.1        USB 64 URB_INTERRUPT in
+   59   3.111376        2.2.1 → host         USB 65 URB_INTERRUPT in
+   60   3.111382         host → 2.2.1        USB 64 URB_INTERRUPT in
+   61   3.127376        2.2.1 → host         USB 65 URB_INTERRUPT in
+   62   3.127382         host → 2.2.1        USB 64 URB_INTERRUPT in
+   63   3.143377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   64   3.143383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   65   3.159377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   66   3.159383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   67   3.175377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   68   3.175383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   69   3.191377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   70   3.191383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   71   3.206355         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+   72   3.207177        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+   73   3.207379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   74   3.207384         host → 2.2.1        USB 64 URB_INTERRUPT in
+   75   3.223379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   76   3.223386         host → 2.2.1        USB 64 URB_INTERRUPT in
+   77   3.239377        2.2.1 → host         USB 65 URB_INTERRUPT in
+   78   3.239383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   79   3.255378        2.2.1 → host         USB 65 URB_INTERRUPT in
+   80   3.255383         host → 2.2.1        USB 64 URB_INTERRUPT in
+   81   3.271378        2.2.1 → host         USB 65 URB_INTERRUPT in
+   82   3.271384         host → 2.2.1        USB 64 URB_INTERRUPT in
+   83   3.287378        2.2.1 → host         USB 65 URB_INTERRUPT in
+   84   3.287384         host → 2.2.1        USB 64 URB_INTERRUPT in
+   85   3.303378        2.2.1 → host         USB 65 URB_INTERRUPT in
+   86   3.303384         host → 2.2.1        USB 64 URB_INTERRUPT in
+   87   3.319378        2.2.1 → host         USB 65 URB_INTERRUPT in
+   88   3.319384         host → 2.2.1        USB 64 URB_INTERRUPT in
+   89   3.335379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   90   3.335385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   91   3.351379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   92   3.351385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   93   3.367379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   94   3.367385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   95   3.383379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   96   3.383385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   97   3.399379        2.2.1 → host         USB 65 URB_INTERRUPT in
+   98   3.399385         host → 2.2.1        USB 64 URB_INTERRUPT in
+   99   3.414346         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+  100   3.415144        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+  101   3.415185         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_PORT_RESET]
+  102   3.415381        2.2.1 → host         USB 65 URB_INTERRUPT in
+  103   3.415387         host → 2.2.1        USB 64 URB_INTERRUPT in
+  104   3.415714        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_PORT_RESET]
+  105   3.415747         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_BH_PORT_RESET]
+  106   3.416093        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_BH_PORT_RESET]
+  107   3.416137         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_PORT_LINK_STATE]
+  108   3.416386        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_PORT_LINK_STATE]
+  109   3.416424         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+  110   3.416952        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+  111   3.431384        2.2.1 → host         USB 65 URB_INTERRUPT in
+  112   3.431391         host → 2.2.1        USB 64 URB_INTERRUPT in
+  113   3.447381        2.2.1 → host         USB 65 URB_INTERRUPT in
+  114   3.447388         host → 2.2.1        USB 64 URB_INTERRUPT in
+  115   3.463380        2.2.1 → host         USB 65 URB_INTERRUPT in
+  116   3.463386         host → 2.2.1        USB 64 URB_INTERRUPT in
+  117   3.479386        2.2.1 → host         USB 65 URB_INTERRUPT in
+  118   3.479395         host → 2.2.1        USB 64 URB_INTERRUPT in
+  119   3.494350         host → 2.4.0        USB 64 GET DESCRIPTOR Request DEVICE
+  120   3.494461        2.4.0 → host         USB 72 GET DESCRIPTOR Response DEVICE
+  121   3.494499         host → 2.4.0        USB 64 GET DESCRIPTOR Request DEVICE
+  122   3.494626        2.4.0 → host         USB 82 GET DESCRIPTOR Response DEVICE
+  123   3.494664         host → 2.4.0        USB 64 GET DESCRIPTOR Request BOS
+  124   3.494782        2.4.0 → host         USB 69 GET DESCRIPTOR Response BOS
+  125   3.494816         host → 2.4.0        USB 64 GET DESCRIPTOR Request BOS
+  126   3.494935        2.4.0 → host         USB 86 GET DESCRIPTOR Response BOS
+  127   3.494981         host → 2.4.0        USB 64 GET DESCRIPTOR Request CONFIGURATION
+  128   3.495163        2.4.0 → host         USB 160 GET DESCRIPTOR Response CONFIGURATION
+  129   3.495398        2.2.1 → host         USB 65 URB_INTERRUPT in
+  130   3.495404         host → 2.2.1        USB 64 URB_INTERRUPT in
+  131   3.495735         host → 2.4.0        USB 64 SET CONFIGURATION Request
+  132   3.495900        2.4.0 → host         USB 64 SET CONFIGURATION Response
+  133   3.495950         host → 2.2.0        USBHUB 64 GET_STATUS Request     [Port 3]
+  134   3.496846        2.2.0 → host         USBHUB 68 GET_STATUS Response    [Port 3]
+  135   3.496867         host → 2.2.0        USBHUB 64 CLEAR_FEATURE Request  [Port 3: C_PORT_CONNECTION]
+  136   3.498143        2.2.0 → host         USBHUB 64 CLEAR_FEATURE Response [Port 3: C_PORT_CONNECTION]
+  137   4.502155         host → 2.4.0        USB 64 URB_CONTROL in
+  138   4.502291        2.4.0 → host         USB 68 URB_CONTROL in
+  139   4.502391         host → 2.4.0        USB 68 URB_CONTROL out
+  140   4.502522        2.4.0 → host         USB 64 URB_CONTROL out
+  141   4.502577         host → 2.4.0        USB 64 URB_CONTROL in
+  142   4.502695        2.4.0 → host         USB 68 URB_CONTROL in
+  143   4.502746         host → 2.4.0        USB 64 URB_CONTROL in
+  144   4.502859        2.4.0 → host         USB 68 URB_CONTROL in
+  145   4.502908         host → 2.4.0        USB 64 URB_CONTROL in
+  146   4.503032        2.4.0 → host         USB 68 URB_CONTROL in
+  147   4.503081         host → 2.4.0        USB 68 URB_CONTROL out
+  148   4.503204        2.4.0 → host         USB 64 URB_CONTROL out
+  149   4.503251         host → 2.4.0        USB 64 URB_CONTROL in
+  150   4.503369        2.4.0 → host         USB 68 URB_CONTROL in
+  151   4.503416         host → 2.4.0        USB 64 URB_CONTROL in
+  152   4.503527        2.4.0 → host         USB 72 URB_CONTROL in
+  153   4.503577         host → 2.4.0        USB 72 URB_CONTROL out
+  154   4.503694        2.4.0 → host         USB 64 URB_CONTROL out
+  155   4.503743         host → 2.4.0        USB 72 URB_CONTROL out
+  156   4.503862        2.4.0 → host         USB 64 URB_CONTROL out
+  157   4.503910         host → 2.4.0        USB 64 URB_CONTROL in
+  158   4.504014        2.4.0 → host         USB 72 URB_CONTROL in
+  159   4.504063         host → 2.4.0        USB 72 URB_CONTROL out
+  160   4.504184        2.4.0 → host         USB 64 URB_CONTROL out
+  161   4.504232         host → 2.4.0        USB 64 URB_CONTROL in
+  162   4.504344        2.4.0 → host         USB 68 URB_CONTROL in
+  163   4.504393         host → 2.4.0        USB 68 URB_CONTROL out
+  164   4.504531        2.4.0 → host         USB 64 URB_CONTROL out
+  165   4.504579         host → 2.4.0        USB 64 URB_CONTROL in
+  166   4.504692        2.4.0 → host         USB 68 URB_CONTROL in
+  167   4.504742         host → 2.4.0        USB 72 URB_CONTROL out
+  168   4.504863        2.4.0 → host         USB 64 URB_CONTROL out
+  169   4.504912         host → 2.4.0        USB 72 URB_CONTROL out
+  170   4.505037        2.4.0 → host         USB 64 URB_CONTROL out
+  171   4.505088         host → 2.4.0        USB 72 URB_CONTROL out
+  172   4.505205        2.4.0 → host         USB 64 URB_CONTROL out
+  173   4.505253         host → 2.4.0        USB 72 URB_CONTROL out
+  174   4.505372        2.4.0 → host         USB 64 URB_CONTROL out
+  175   4.505420         host → 2.4.0        USB 72 URB_CONTROL out
+  176   4.505540        2.4.0 → host         USB 64 URB_CONTROL out
+  177   4.505589         host → 2.4.0        USB 72 URB_CONTROL out
+  178   4.505705        2.4.0 → host         USB 64 URB_CONTROL out
+  179   4.505759         host → 2.4.0        USB 72 URB_CONTROL out
+  180   4.505867        2.4.0 → host         USB 64 URB_CONTROL out
+  181   4.505924         host → 2.4.0        USB 72 URB_CONTROL out
+  182   4.506045        2.4.0 → host         USB 64 URB_CONTROL out
+  183   4.506090         host → 2.4.0        USB 72 URB_CONTROL out
+  184   4.506202        2.4.0 → host         USB 64 URB_CONTROL out
+  185   4.506241         host → 2.4.0        USB 64 URB_CONTROL in
+  186   4.506341        2.4.0 → host         USB 72 URB_CONTROL in
+  187   4.506394         host → 2.4.0        USB 72 URB_CONTROL out
+  188   4.506518        2.4.0 → host         USB 64 URB_CONTROL out
+  189   4.506563         host → 2.4.0        USB 72 URB_CONTROL out
+  190   4.506676        2.4.0 → host         USB 64 URB_CONTROL out
+  191   4.506720         host → 2.4.0        USB 72 URB_CONTROL out
+  192   4.506830        2.4.0 → host         USB 64 URB_CONTROL out
+  193   4.506873         host → 2.4.0        USB 72 URB_CONTROL out
+  194   4.506988        2.4.0 → host         USB 64 URB_CONTROL out
+  195   4.507031         host → 2.4.0        USB 72 URB_CONTROL out
+  196   4.507153        2.4.0 → host         USB 64 URB_CONTROL out
+  197   4.507195         host → 2.4.0        USB 72 URB_CONTROL out
+  198   4.507311        2.4.0 → host         USB 64 URB_CONTROL out
+  199   4.507352         host → 2.4.0        USB 72 URB_CONTROL out
+  200   4.507475        2.4.0 → host         USB 64 URB_CONTROL out
+  201   4.507517         host → 2.4.0        USB 72 URB_CONTROL out
+  202   4.507639        2.4.0 → host         USB 64 URB_CONTROL out
+  203   4.507681         host → 2.4.0        USB 72 URB_CONTROL out
+  204   4.507797        2.4.0 → host         USB 64 URB_CONTROL out
+  205   4.507839         host → 2.4.0        USB 72 URB_CONTROL out
+  206   4.507949        2.4.0 → host         USB 64 URB_CONTROL out
+  207   4.507989         host → 2.4.0        USB 72 URB_CONTROL out
+  208   4.508103        2.4.0 → host         USB 64 URB_CONTROL out
+  209   4.508144         host → 2.4.0        USB 72 URB_CONTROL out
+  210   4.508267        2.4.0 → host         USB 64 URB_CONTROL out
+  211   4.508311         host → 2.4.0        USB 72 URB_CONTROL out
+  212   4.508422        2.4.0 → host         USB 64 URB_CONTROL out
+  213   4.508462         host → 2.4.0        USB 72 URB_CONTROL out
+  214   4.508570        2.4.0 → host         USB 64 URB_CONTROL out
+  215   4.508611         host → 2.4.0        USB 72 URB_CONTROL out
+  216   4.508724        2.4.0 → host         USB 64 URB_CONTROL out
+  217   4.508766         host → 2.4.0        USB 64 URB_CONTROL in
+  218   4.508870        2.4.0 → host         USB 68 URB_CONTROL in
+  219   4.508914         host → 2.4.0        USB 68 URB_CONTROL out
+  220   4.509032        2.4.0 → host         USB 64 URB_CONTROL out
+  221   4.509080         host → 2.4.0        USB 64 URB_CONTROL in
+  222   4.509189        2.4.0 → host         USB 68 URB_CONTROL in
+  223   4.509233         host → 2.4.0        USB 68 URB_CONTROL out
+  224   4.509354        2.4.0 → host         USB 64 URB_CONTROL out
+  225   4.509397         host → 2.4.0        USB 64 URB_CONTROL in
+  226   4.509510        2.4.0 → host         USB 68 URB_CONTROL in
+  227   4.509552         host → 2.4.0        USB 68 URB_CONTROL out
+  228   4.509671        2.4.0 → host         USB 64 URB_CONTROL out
+  229   4.509713         host → 2.4.0        USB 68 URB_CONTROL out
+  230   4.509829        2.4.0 → host         USB 64 URB_CONTROL out
+  231   4.509871         host → 2.4.0        USB 68 URB_CONTROL out
+  232   4.509990        2.4.0 → host         USB 64 URB_CONTROL out
+  233   4.510031         host → 2.4.0        USB 68 URB_CONTROL out
+  234   4.510162        2.4.0 → host         USB 64 URB_CONTROL out
+  235   4.510204         host → 2.4.0        USB 68 URB_CONTROL out
+  236   4.510317        2.4.0 → host         USB 64 URB_CONTROL out
+  237   4.510361         host → 2.4.0        USB 64 URB_CONTROL in
+  238   4.510470        2.4.0 → host         USB 68 URB_CONTROL in
+  239   4.510510         host → 2.4.0        USB 68 URB_CONTROL out
+  240   4.510640        2.4.0 → host         USB 64 URB_CONTROL out
+  241   4.510896         host → 2.4.2        USB 64 URB_BULK in
+  242   4.510926         host → 2.4.3        USB 64 URB_INTERRUPT in
+  243   4.510953         host → 2.4.1        USB 64 URB_BULK in
+  244   4.510971         host → 2.4.1        USB 64 URB_BULK in
+  245   4.510987         host → 2.4.1        USB 64 URB_BULK in
+  246   4.511005         host → 2.4.1        USB 64 URB_BULK in
+  247   4.511022         host → 2.4.1        USB 64 URB_BULK in
+  248   4.511037         host → 2.4.1        USB 64 URB_BULK in
+  249   4.511054         host → 2.4.1        USB 64 URB_BULK in
+  250   4.511071         host → 2.4.1        USB 64 URB_BULK in
+  251   4.517137         host → 2.4.1        USB 72 URB_BULK out
+  252   4.517177         host → 2.4.1        USB 6896 URB_BULK out
+  253   4.517207        2.4.1 → host         USB 64 URB_BULK out
+  254   4.517219         host → 2.4.1        USB 72 URB_BULK out
+  255   4.517283        2.4.1 → host         USB 64 URB_BULK out
+  256   4.517292        2.4.1 → host         USB 64 URB_BULK out
+  257   4.517640         host → 2.4.1        USB 61504 URB_BULK out
+  258   4.518886         host → 2.4.1        USB 61504 URB_BULK out
+  259   4.520009         host → 2.4.1        USB 61504 URB_BULK out
+  260   4.520924        2.4.1 → host         USB 64 URB_BULK out
+  261   4.521423         host → 2.4.1        USB 61504 URB_BULK out
+  262   4.523387        2.4.1 → host         USB 64 URB_BULK out
+  263   4.523577         host → 2.4.1        USB 61504 URB_BULK out
+  264   4.525877        2.4.1 → host         USB 64 URB_BULK out
+  265   4.525971         host → 2.4.1        USB 72 URB_BULK out
+  266   4.526038         host → 2.4.1        USB 61504 URB_BULK out
+  267   4.528362        2.4.1 → host         USB 64 URB_BULK out
+  268   4.528459         host → 2.4.1        USB 72 URB_BULK out
+  269   4.528539         host → 2.4.1        USB 61504 URB_BULK out
+  270   4.528861        2.4.1 → host         USB 64 URB_BULK out
+  271   4.528876        2.4.1 → host         USB 64 URB_BULK out
+  272   4.528911        2.4.2 → host         USB 80 URB_BULK in
+  273   4.528957         host → 2.4.2        USB 64 URB_BULK in
+  274   4.529059        2.4.1 → host         USB 64 URB_BULK out
+  275   4.529072        2.4.1 → host         USB 64 URB_BULK out
+  276   4.529433        2.4.1 → host         USB 64 URB_BULK out
+  277   4.530950        2.4.1 → host         USB 1072 URB_BULK in
+  278   4.530965        2.4.2 → host         USB 80 URB_BULK in
+  279   4.531015         host → 2.4.2        USB 64 URB_BULK in
+  280   4.531038         host → 2.4.1        USB 64 URB_BULK in
+  281   6.533366         host → 2.4.1        USB 72 URB_BULK out
+  282   6.533444        2.4.1 → host         USB 64 URB_BULK out
+  283   6.533482         host → 2.4.1        USB 61504 URB_BULK out
+  284   6.533589         host → 2.4.1        USB 72 URB_BULK out
+  285   6.533672         host → 2.4.1        USB 61504 URB_BULK out
+  286   6.533818        2.4.1 → host         USB 64 URB_BULK out
+  287   6.533831        2.4.1 → host         USB 64 URB_BULK out
+  288   6.534203        2.4.1 → host         USB 64 URB_BULK out
+  289   6.535728        2.4.1 → host         USB 1072 URB_BULK in
+  290   6.535746        2.4.2 → host         USB 80 URB_BULK in
+  291   6.535793         host → 2.4.2        USB 64 URB_BULK in
+  292   6.535819         host → 2.4.1        USB 64 URB_BULK in
+  293   8.538123         host → 2.4.1        USB 72 URB_BULK out
+  294   8.538195         host → 2.4.1        USB 61504 URB_BULK out
+  295   8.538219        2.4.1 → host         USB 64 URB_BULK out
+  296   8.538296         host → 2.4.1        USB 72 URB_BULK out
+  297   8.538457         host → 2.4.1        USB 61504 URB_BULK out
+  298   8.538555        2.4.1 → host         USB 64 URB_BULK out
+  299   8.538613        2.4.1 → host         USB 64 URB_BULK out
+  300   8.539005        2.4.1 → host         USB 64 URB_BULK out
+  301   8.540526        2.4.1 → host         USB 1072 URB_BULK in
+  302   8.540542        2.4.2 → host         USB 80 URB_BULK in
+  303   8.540606         host → 2.4.2        USB 64 URB_BULK in
+  304   8.540622         host → 2.4.1        USB 64 URB_BULK in
+  305  10.511740        2.4.3 → host         USB 64 URB_INTERRUPT in
+  306  10.512235        2.4.1 → host         USB 64 URB_BULK in
+  307  10.512621        2.4.1 → host         USB 64 URB_BULK in
+  308  10.512983        2.4.1 → host         USB 64 URB_BULK in
+  309  10.513361        2.4.1 → host         USB 64 URB_BULK in
+  310  10.513722        2.4.1 → host         USB 64 URB_BULK in
+  311  10.513819         host → 2.4.3        USB 64 URB_INTERRUPT in
+  312  10.513859         host → 2.4.1        USB 64 URB_BULK in
+  313  10.513880         host → 2.4.1        USB 64 URB_BULK in
+  314  10.513901         host → 2.4.1        USB 64 URB_BULK in
+  315  10.513919         host → 2.4.1        USB 64 URB_BULK in
+  316  10.513936         host → 2.4.1        USB 64 URB_BULK in
+  317  10.531374        2.4.1 → host         USB 64 URB_BULK in
+  318  10.531434         host → 2.4.1        USB 64 URB_BULK in
+  319  10.542899         host → 2.4.1        USB 72 URB_BULK out
+  320  10.542958         host → 2.4.1        USB 61504 URB_BULK out
+  321  10.542981        2.4.1 → host         USB 64 URB_BULK out
+  322  10.543056         host → 2.4.1        USB 72 URB_BULK out
+  323  10.543139         host → 2.4.1        USB 61504 URB_BULK out
+  324  10.543278        2.4.1 → host         USB 64 URB_BULK out
+  325  10.543286        2.4.1 → host         USB 64 URB_BULK out
+  326  10.543681        2.4.1 → host         USB 64 URB_BULK out
+  327  10.545206        2.4.1 → host         USB 1072 URB_BULK in
+  328  10.545224        2.4.2 → host         USB 80 URB_BULK in
+  329  10.545269         host → 2.4.1        USB 64 URB_BULK in
+  330  10.545300         host → 2.4.2        USB 64 URB_BULK in
+  331  12.547591         host → 2.4.1        USB 72 URB_BULK out
+  332  12.547664         host → 2.4.1        USB 61504 URB_BULK out
+  333  12.547688        2.4.1 → host         USB 64 URB_BULK out
+  334  12.547762         host → 2.4.1        USB 72 URB_BULK out
+  335  12.547840         host → 2.4.1        USB 61504 URB_BULK out
+  336  12.548008        2.4.1 → host         USB 64 URB_BULK out
+  337  12.548022        2.4.1 → host         USB 64 URB_BULK out
+  338  12.548387        2.4.1 → host         USB 64 URB_BULK out
+  339  12.549890        2.4.1 → host         USB 1072 URB_BULK in
+  340  12.549908        2.4.2 → host         USB 80 URB_BULK in
+  341  12.549955         host → 2.4.2        USB 64 URB_BULK in
+  342  12.549980         host → 2.4.1        USB 64 URB_BULK in
+  343  14.568354        2.4.1 → host         USB 64 URB_BULK in
+  344  14.568705        2.4.1 → host         USB 64 URB_BULK in
+  345  14.569063        2.4.1 → host         USB 64 URB_BULK in
+  346  14.569419        2.4.1 → host         USB 64 URB_BULK in
+  347  14.569773        2.4.1 → host         USB 64 URB_BULK in
+  348  14.570113        2.4.1 → host         USB 64 URB_BULK in
+  349  14.570892        2.4.3 → host         USB 64 URB_INTERRUPT in
+  350  14.571384        2.4.1 → host         USB 64 URB_BULK in
+  351  14.571726        2.4.2 → host         USB 64 URB_BULK in
+  352  14.572216        2.4.1 → host         USB 64 URB_BULK in
+  353  14.572519         host → 2.4.0        USB 72 URB_CONTROL out
+  354  14.572653        2.4.0 → host         USB 64 URB_CONTROL out
+  355  14.572719         host → 2.4.0        USB 72 URB_CONTROL out
+  356  14.572841        2.4.0 → host         USB 64 URB_CONTROL out
+  357  14.572895         host → 2.4.0        USB 72 URB_CONTROL out
+  358  14.573024        2.4.0 → host         USB 64 URB_CONTROL out
+  359  14.573074         host → 2.4.0        USB 72 URB_CONTROL out
+  360  14.573190        2.4.0 → host         USB 64 URB_CONTROL out
+  361  14.573250         host → 2.4.0        USB 64 URB_CONTROL in
+  362  14.573363        2.4.0 → host         USB 68 URB_CONTROL in
+  363  14.573416         host → 2.4.0        USB 68 URB_CONTROL out
+  364  14.573539        2.4.0 → host         USB 64 URB_CONTROL out
+  365  14.573586         host → 2.4.0        USB 64 URB_CONTROL in
+  366  14.573708        2.4.0 → host         USB 68 URB_CONTROL in
+  367  14.573754         host → 2.4.0        USB 68 URB_CONTROL out
+  368  14.573883        2.4.0 → host         USB 64 URB_CONTROL out
+  369  14.573927         host → 2.4.0        USB 64 URB_CONTROL in
+  370  14.574045        2.4.0 → host         USB 68 URB_CONTROL in
+  371  14.574089         host → 2.4.0        USB 68 URB_CONTROL out
+  372  14.574220        2.4.0 → host         USB 64 URB_CONTROL out
+  373  14.574264         host → 2.4.0        USB 68 URB_CONTROL out
+  374  14.574394        2.4.0 → host         USB 64 URB_CONTROL out
+  375  14.574441         host → 2.4.0        USB 68 URB_CONTROL out
+  376  14.574563        2.4.0 → host         USB 64 URB_CONTROL out
+  377  14.574607         host → 2.4.0        USB 68 URB_CONTROL out
+  378  14.574730        2.4.0 → host         USB 64 URB_CONTROL out
+  379  14.574772         host → 2.4.0        USB 68 URB_CONTROL out
+  380  14.574903        2.4.0 → host         USB 64 URB_CONTROL out
+  381  14.574944         host → 2.4.0        USB 64 URB_CONTROL in
+  382  14.575055        2.4.0 → host         USB 68 URB_CONTROL in
+  383  14.575099         host → 2.4.0        USB 68 URB_CONTROL out
+  384  14.575224        2.4.0 → host         USB 64 URB_CONTROL out
+  385  14.575269         host → 2.4.0        USB 72 URB_CONTROL out
+  386  14.575391        2.4.0 → host         USB 64 URB_CONTROL out
+  387  14.575440         host → 2.4.0        USB 72 URB_CONTROL out
+  388  14.575556        2.4.0 → host         USB 64 URB_CONTROL out
+  389  14.575600         host → 2.4.0        USB 72 URB_CONTROL out
+  390  14.575715        2.4.0 → host         USB 64 URB_CONTROL out
+  391  14.575757         host → 2.4.0        USB 72 URB_CONTROL out
+  392  14.575881        2.4.0 → host         USB 64 URB_CONTROL out
+  393  14.575923         host → 2.4.0        USB 72 URB_CONTROL out
+  394  14.576038        2.4.0 → host         USB 64 URB_CONTROL out
+  395  14.576080         host → 2.4.0        USB 72 URB_CONTROL out
+  396  14.576191        2.4.0 → host         USB 64 URB_CONTROL out
+  397  14.576233         host → 2.4.0        USB 72 URB_CONTROL out
+  398  14.576347        2.4.0 → host         USB 64 URB_CONTROL out
+  399  14.576390         host → 2.4.0        USB 64 URB_CONTROL in
+  400  14.576493        2.4.0 → host         USB 72 URB_CONTROL in
+  401  14.576538         host → 2.4.0        USB 72 URB_CONTROL out
+  402  14.576658        2.4.0 → host         USB 64 URB_CONTROL out
+  403  14.576701         host → 2.4.0        USB 72 URB_CONTROL out
+  404  14.576813        2.4.0 → host         USB 64 URB_CONTROL out
+  405  14.576856         host → 2.4.0        USB 72 URB_CONTROL out
+  406  14.576973        2.4.0 → host         USB 64 URB_CONTROL out
+  407  14.577015         host → 2.4.0        USB 72 URB_CONTROL out
+  408  14.577139        2.4.0 → host         USB 64 URB_CONTROL out
+  409  14.577181         host → 2.4.0        USB 72 URB_CONTROL out
+  410  14.577294        2.4.0 → host         USB 64 URB_CONTROL out
+  411  14.577336         host → 2.4.0        USB 72 URB_CONTROL out
+  412  14.577445        2.4.0 → host         USB 64 URB_CONTROL out
+  413  14.577488         host → 2.4.0        USB 72 URB_CONTROL out
+  414  14.577603        2.4.0 → host         USB 64 URB_CONTROL out
+  415  14.577645         host → 2.4.0        USB 72 URB_CONTROL out
+  416  14.577769        2.4.0 → host         USB 64 URB_CONTROL out
+  417  14.577812         host → 2.4.0        USB 72 URB_CONTROL out
+  418  14.577927        2.4.0 → host         USB 64 URB_CONTROL out
+  419  14.577968         host → 2.4.0        USB 72 URB_CONTROL out
+  420  14.578092        2.4.0 → host         USB 64 URB_CONTROL out
+  421  14.578134         host → 2.4.0        USB 64 URB_CONTROL in
+  422  14.578252        2.4.0 → host         USB 68 URB_CONTROL in
+  423  14.578296         host → 2.4.0        USB 68 URB_CONTROL out
+  424  14.578420        2.4.0 → host         USB 64 URB_CONTROL out
+  425  14.578466         host → 2.4.0        USB 64 URB_CONTROL in
+  426  14.578584        2.4.0 → host         USB 68 URB_CONTROL in
+  427  14.578629         host → 2.4.0        USB 68 URB_CONTROL out
+  428  14.578757        2.4.0 → host         USB 64 URB_CONTROL out
+  429  14.578800         host → 2.4.0        USB 68 URB_CONTROL out
+  430  14.578921        2.4.0 → host         USB 64 URB_CONTROL out

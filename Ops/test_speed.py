@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy
 from edgetpu.basic.basic_engine import BasicEngine
 
-MODEL_NAME = "model_mobilenet/mobilenet_v1_1.0_224_quant.tflite"
+MODEL_NAME = "model_conv/model_conv_128x128x3x32x7x75.tflite"
 
 
 ### Load model and prepare TPU engine
@@ -23,7 +23,7 @@ input_tensor = numpy.asarray(img).flatten()
 
 ### Run inference
 start = time.time()
-num_measurement = 500
+num_measurement = 10
 for i in range(num_measurement):
 	_, raw_result = engine.RunInference(input_tensor)
 elapsed_time = time.time() - start

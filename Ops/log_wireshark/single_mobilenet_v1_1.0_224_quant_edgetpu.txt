@@ -1,0 +1,13 @@
+                                                                      # URB length [bytes], Data length [bytes], Leftover Capture Data
+  281   6.533366         host → 2.4.1        USB 72 URB_BULK out     # 8,8,5043010000000000
+  282   6.533444        2.4.1 → host         USB 64 URB_BULK out     # 8,0,
+  283   6.533482         host → 2.4.1        USB 61504 URB_BULK out  # 82768,61440,800f00cc500000000000000000000000000900009f010000
+  284   6.533589         host → 2.4.1        USB 72 URB_BULK out     # 8,8,004c020001000000
+  285   6.533672         host → 2.4.1        USB 61504 URB_BULK out  # 150528,61440,808080808080808080808080808080808080808080808080
+  286   6.533818        2.4.1 → host         USB 64 URB_BULK out     # 82768,0,
+  287   6.533831        2.4.1 → host         USB 64 URB_BULK out     # 8,0,
+  288   6.534203        2.4.1 → host         USB 64 URB_BULK out     # 150528,0,
+  289   6.535728        2.4.1 → host         USB 1072 URB_BULK in    # 1008,1008,000000000000000000000000000000000000000000000000
+  290   6.535746        2.4.2 → host         USB 80 URB_BULK in      # 16,16,00000000000000000000000004000000
+  291   6.535793         host → 2.4.2        USB 64 URB_BULK in      # 16,0,
+  292   6.535819         host → 2.4.1        USB 64 URB_BULK in      # 1024,0,
